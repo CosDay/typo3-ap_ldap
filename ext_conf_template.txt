@@ -1,0 +1,2 @@
+# cat=basic; type=int; label=Default configuration: Uid of the configuration record in table tx_apldap_domain_model_config.
+defaultConfigurationUid = 1

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="list">Overview</label>
+			<label index="list.title">LDAP Configurations</label>
+			<label index="list.new">Add new configuration</label>
+			<label index="list.edit">Edit configuration</label>
+			<label index="list.checkConfig">Check configuration</label>
+			<label index="list.checkConfig.ok.title">Configuration correct</label>
+			<label index="list.checkConfig.ok.message">Connection is established and bind is successful.</label>
+			<label index="list.checkConfig.failed.title">Configuration not correct</label>
+			<label index="list.count">%d configuration(s)</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+			<label index="list">Übersicht</label>
+			<label index="list.title">LDAP Konfigurationen</label>
+			<label index="list.new">Konfiguration hinzufügen</label>
+			<label index="list.edit">Konfiguration bearbeiten</label>
+			<label index="list.checkConfig">Konfiguration prüfen</label>
+			<label index="list.checkConfig.ok.title">Konfiguration korrekt</label>
+			<label index="list.checkConfig.ok.message">Verbindung wurde hergestellt und Bind war erfolgreich.</label>
+			<label index="list.checkConfig.failed.title">Konfiguration fehlerhaft</label>
+			<label index="list.count">%d Konfiguration(en)</label>
+		</languageKey>
+	</data>
+</T3locallang>

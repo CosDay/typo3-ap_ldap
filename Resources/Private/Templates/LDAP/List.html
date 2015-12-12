@@ -1,0 +1,52 @@
+<f:layout name="default" />
+
+<f:section name="iconButtons">
+	<div class="buttongroup">
+		<f:be.buttons.icon uri="{f:uri.action(action: 'new')}" icon="actions-document-new" title="{f:translate(key: 'list.new')}" />
+	</div>
+</f:section>
+
+<f:section name="content">
+	<h3><f:translate key="list.title" /></h3>
+	<f:if condition="{f:count(subject: '{ldapConfigs}')} > 0">
+		<f:then>
+			<table border="0" cellpadding="0" cellspacing="0" class="typo3-dblist">
+				<tr class="t3-row-header">
+					<td></td>
+					<td>Name</td>
+					<td>Host</td>
+					<td>Port</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<f:for each="{ldapConfigs}" as="ldapConfig">
+					<tr class="db_list_normal">
+						<td class="col-icon">
+							<a href="#" onClick="Clickmenu.show('tx_apldap_domain_model_config', '{ldapConfig.uid}', '1', '', '', ''); return false;" title="id={ldapConfig.uid}">
+								<f:image src="{f:uri.resource(path: 'Icons/ldap_configuration.png')}" alt="" title="" />
+							</a>
+						</td>
+						<td class="col-title"><b>{ldapConfig.name}</b></td>
+						<td>{ldapConfig.ldapHost}</td>
+						<td><f:if condition="{ldapConfig.ldapPort}"><f:then>{ldapConfig.ldapPort}</f:then><f:else>-</f:else></f:if></td>
+						<td>
+							<f:be.buttons.icon uri="{f:uri.action(action: 'checkConfig', arguments: {configUid: '{lpapConfig.uid}'})}" icon="apps-pagetree-folder-contains-approve" title="{f:translate(key: 'list.checkConfig')}" /> <f:link.action action="checkConfig" arguments="{configUid: '{ldapConfig.uid}'}"><f:translate key="list.checkConfig" /></f:link.action>
+						</td>
+						<td class="col-control">
+							<a href="#" onclick="top.launchView('tx_apldap_domain_model_config', '{ldapConfig.uid}'); return false;"><span class="t3-icon t3-icon-actions t3-icon-actions-document t3-icon-document-info">&nbsp;</span></a>
+							<f:be.buttons.icon uri="{f:uri.action(action: 'edit', arguments: {configUid: '{ldapConfig.uid}'})}" icon="actions-document-open" title="{f:translate(key: 'list.edit')}" />
+						</td>
+					</tr>
+				</f:for>
+				<tr>
+					<td colspan="6">
+						<f:translate key="list.count" arguments="{0: '{f:count(subject: ldapConfigs)}'}" />
+					</td>
+				</tr>
+			</table>
+		</f:then>
+		<f:else>
+			<f:render partial="message" arguments="{type: 'information', text: 'No configuration added." />
+		</f:else>
+	</f:if>
+</f:section>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ap_ldap'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_apldap_domain_model_config.title">LDAP Configuration</label>
+			<label index="tx_apldap_domain_model_config.name">Name:</label>
+
+			<label index="tx_apldap_domain_model_config.ldap_type">Server:</label>
+			<label index="tx_apldap_domain_model_config.ldap_type.I.0">OpenLDAP</label>
+			<label index="tx_apldap_domain_model_config.ldap_type.I.1">Active Directory</label>
+			<label index="tx_apldap_domain_model_config.ldap_protocol">Protocol:</label>
+			<label index="tx_apldap_domain_model_config.ldap_protocol.I.0">3</label>
+			<label index="tx_apldap_domain_model_config.ldap_protocol.I.1">2</label>
+			<label index="tx_apldap_domain_model_config.ldap_host">Host:</label>
+			<label index="tx_apldap_domain_model_config.ldap_port">Port:</label>
+			<label index="tx_apldap_domain_model_config.ldap_use_tls">Use TLS</label>
+			<label index="tx_apldap_domain_model_config.ldap_bind_dn">Bind DN:</label>
+			<label index="tx_apldap_domain_model_config.ldap_password">Password:</label>
+
+			<label index="tx_apldap_domain_model_config.tabs.general">General</label>
+			<label index="tx_apldap_domain_model_config.tabs.server">LDAP Server</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+			<label index="tx_apldap_domain_model_config.title">LDAP Konfiguration</label>
+			<label index="tx_apldap_domain_model_config.name">Name:</label>
+
+			<label index="tx_apldap_domain_model_config.ldap_type">Server:</label>
+			<label index="tx_apldap_domain_model_config.ldap_type.I.0">OpenLDAP</label>
+			<label index="tx_apldap_domain_model_config.ldap_type.I.1">Active Directory</label>
+			<label index="tx_apldap_domain_model_config.ldap_protocol">Protokoll:</label>
+			<label index="tx_apldap_domain_model_config.ldap_protocol.I.0">3</label>
+			<label index="tx_apldap_domain_model_config.ldap_protocol.I.1">2</label>
+			<label index="tx_apldap_domain_model_config.ldap_host">Host:</label>
+			<label index="tx_apldap_domain_model_config.ldap_port">Port:</label>
+			<label index="tx_apldap_domain_model_config.ldap_use_tls">Benutze TLS</label>
+			<label index="tx_apldap_domain_model_config.ldap_bind_dn">Bind DN:</label>
+			<label index="tx_apldap_domain_model_config.ldap_password">Passwort:</label>
+
+			<label index="tx_apldap_domain_model_config.tabs.general">Allgemein</label>
+			<label index="tx_apldap_domain_model_config.tabs.server">LDAP Server</label>
+		</languageKey>
+	</data>
+</T3locallang>
