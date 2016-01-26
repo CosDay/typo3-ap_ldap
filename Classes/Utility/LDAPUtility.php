@@ -161,11 +161,25 @@ class LDAPUtility {
 		$this->checkIfConnected();
 
 		if (!$search = @ldap_search($this->connection, $baseDn, $filter, $attributes, $attributesOnly, $sizeLimit, $timeLimit, $deRef))
-			throw new ConnectionException($this->connection, 'Search failed');
+			throw new ConnectionException($this->connection, 'Search failed: ' . $this->getLastError());
 
 		$this->lastSearch = $search;
 
 		return $this;
+	}
+
+	/**
+	 * Modifies entry in ldap.
+	 *
+	 * @param string $dn
+	 * @param array $entry
+	 * @return bool		 Returns true on success and false on failure.
+	 * @throws ConnectionException
+	 */
+	public function modify($dn, array $entry) {
+		$this->checkIfConnected();
+
+		return ldap_modify($this->connection, $dn, $entry);
 	}
 
 	/**
@@ -323,6 +337,13 @@ class LDAPUtility {
 	 */
 	public function getLastEntry() {
 		return $this->lastEntry;
+	}
+
+	/**
+	 * @return string
+	 */
+	public function getLastError() {
+		return ldap_error($this->connection);
 	}
 
 	/**
