@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages"
+		  date="2016-02-08T00:15:00Z" product-name="ap_ldap">
+		<header/>
+		<body>
+			<trans-unit id="tx_apldap_domain_model_config.title">
+				<source>LDAP Configuration</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.name">
+				<source>Name:</source>
+			</trans-unit>
+
+			<trans-unit id="tx_apldap_domain_model_config.ldap_type">
+				<source>Server:</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_type.I.0">
+				<source>OpenLDAP</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_type.I.1">
+				<source>Active Directory</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_protocol">
+				<source>Protocol:</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_protocol.I.0">
+				<source>3</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_protocol.I.1">
+				<source>2</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_host">
+				<source>Host:</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_port">
+				<source>Port:</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_use_tls">
+				<source>Use TLS</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_bind_dn">
+				<source>Bind DN:</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_password">
+				<source>Password:</source>
+			</trans-unit>
+
+			<trans-unit id="tx_apldap_domain_model_config.tabs.general">
+				<source>General</source>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.tabs.server">
+				<source>LDAP Server</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

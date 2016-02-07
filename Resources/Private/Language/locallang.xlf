@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages"
+		  date="2016-02-08T00:15:00Z" product-name="ap_ldap">
+		<header/>
+		<body>
+			<trans-unit id="list">
+				<source>Overview</source>
+			</trans-unit>
+			<trans-unit id="list.title">
+				<source>LDAP Configurations</source>
+			</trans-unit>
+			<trans-unit id="list.new">
+				<source>Add new configuration</source>
+			</trans-unit>
+			<trans-unit id="list.edit">
+				<source>Edit configuration</source>
+			</trans-unit>
+			<trans-unit id="list.checkConfig">
+				<source>Check configuration</source>
+			</trans-unit>
+			<trans-unit id="list.checkConfig.ok.title">
+				<source>Configuration correct</source>
+			</trans-unit>
+			<trans-unit id="list.checkConfig.ok.message">
+				<source>Connection is established and bind is successful.</source>
+			</trans-unit>
+			<trans-unit id="list.checkConfig.failed.title">
+				<source>Configuration not correct</source>
+			</trans-unit>
+			<trans-unit id="list.count">
+				<source>%d configuration(s)</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

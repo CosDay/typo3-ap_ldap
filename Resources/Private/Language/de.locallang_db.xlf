@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages"
+		  date="2016-02-08T00:15:00Z" product-name="ap_ldap">
+		<header/>
+		<body>
+			<trans-unit id="tx_apldap_domain_model_config.title">
+				<source>LDAP Configuration</source>
+				<target>LDAP Konfiguration</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.name">
+				<source>Name:</source>
+				<target>Name:</target>
+			</trans-unit>
+
+			<trans-unit id="tx_apldap_domain_model_config.ldap_type">
+				<source>Server:</source>
+				<target>Server:</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_type.I.0">
+				<source>OpenLDAP</source>
+				<target>OpenLDAP</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_type.I.1">
+				<source>Active Directory</source>
+				<target>Active Directory</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_protocol">
+				<source>Protocol:</source>
+				<target>Protokoll:</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_protocol.I.0">
+				<source>3</source>
+				<target>3</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_protocol.I.1">
+				<source>2</source>
+				<target>2</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_host">
+				<source>Host:</source>
+				<target>Host:</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_port">
+				<source>Port:</source>
+				<target>Port:</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_use_tls">
+				<source>Use TLS</source>
+				<target>Benutze TLS</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_bind_dn">
+				<source>Bind DN:</source>
+				<target>Bind DN:</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.ldap_password">
+				<source>Password:</source>
+				<target>Passwort:</target>
+			</trans-unit>
+
+			<trans-unit id="tx_apldap_domain_model_config.tabs.general">
+				<source>General</source>
+				<target>Allgemein</target>
+			</trans-unit>
+			<trans-unit id="tx_apldap_domain_model_config.tabs.server">
+				<source>LDAP Server</source>
+				<target>LDAP Server</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
