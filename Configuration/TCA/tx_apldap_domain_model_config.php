@@ -6,7 +6,7 @@ $extPath = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($extKe
 
 return array(
 	'ctrl' => array(
-		'title' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.title',
+		'title' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.title',
 		'label' => 'name',
 		'adminOnly' => true,
 		'rootLevel' => 1,
@@ -27,7 +27,7 @@ return array(
 	'columns' => array(
 		'hidden' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:lang/locallang_general.xml:LGL.hidden',
+			'label' => 'LLL:EXT:lang/locallang_general.xlf:LGL.hidden',
 			'config' => array(
 				'type' => 'check',
 				'default' => '0'
@@ -35,7 +35,7 @@ return array(
 		),
 		'name' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.name',
+			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.name',
 			'config' => array(
 				'type' => 'input',
 				'size' => '30',
@@ -44,12 +44,12 @@ return array(
 		),
 		'ldap_type' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_type',
+			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_type',
 			'config' => array(
 				'type' => 'select',
 				'items' => array(
-					array('LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_type.I.0', '0'),
-//					array('LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_type.I.1', '1')
+					array('LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_type.I.0', '0'),
+//					array('LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_type.I.1', '1')
 				),
 				'size' => 1,
 				'maxitems' => 1,
@@ -57,12 +57,12 @@ return array(
 		),
 		'ldap_protocol' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_protocol',
+			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_protocol',
 			'config' => array(
 				'type' => 'select',
 				'items' => array(
-					array('LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_protocol.I.0', '3'),
-					array('LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_protocol.I.1', '2'),
+					array('LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_protocol.I.0', '3'),
+					array('LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_protocol.I.1', '2'),
 				),
 				'size' => 1,
 				'maxitems' => 1,
@@ -70,7 +70,7 @@ return array(
 		),
 		'ldap_host' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_host',
+			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_host',
 			'config' => array(
 				'type' => 'input',
 				'size' => '30',
@@ -80,7 +80,7 @@ return array(
 		),
 		'ldap_port' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_port',
+			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_port',
 			'config' => array(
 				'type' => 'input',
 				'size' => '5',
@@ -91,7 +91,7 @@ return array(
 		),
 		'ldap_use_tls' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_use_tls',
+			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_use_tls',
 			'config' => array(
 				'type' => 'check',
 				'default' => 0
@@ -99,7 +99,7 @@ return array(
 		),
 		'ldap_bind_dn' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_bind_dn',
+			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_bind_dn',
 			'config' => array(
 				'type' => 'input',
 				'size' => '30',
@@ -108,7 +108,7 @@ return array(
 		),
 		'ldap_password' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.ldap_password',
+			'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.ldap_password',
 			'config' => array(
 				'type' => 'input',
 				'size' => '30',
@@ -120,8 +120,8 @@ return array(
 	'types' => array(
 		0 => array(
 			'showitem' => '
-				--div--;LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.tabs.general,name,
-				--div--;LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xml:tx_apldap_domain_model_config.tabs.server, ldap_type, ldap_protocol, ldap_host, ldap_port, ldap_use_tls, ldap_bind_dn, ldap_password'
+				--div--;LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.tabs.general,name,
+				--div--;LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:tx_apldap_domain_model_config.tabs.server, ldap_type, ldap_protocol, ldap_host, ldap_port, ldap_use_tls, ldap_bind_dn, ldap_password'
 		)
 	)
 );
